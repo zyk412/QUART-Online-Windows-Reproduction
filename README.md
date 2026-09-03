@@ -34,7 +34,7 @@ QUART-Online-Windows-Reproduction/
 ├── test_quart.py              # 核心单步推理与动作生成测试脚本
 ├── utils.py                   # 核心工具类（包含 RVQ 反量化及输入对齐）
 ├── ckpts/                     # 模型权重文件夹（权重需按说明自行放置）
-├── datasets/                  # 示例或仿真测试数据集
+├── sample_data/               # 示例数据集
 └── gym_eval_scripts/          # 仿真评测与任务加载控制流脚本
 ```
 
