@@ -39,5 +39,6 @@ QUART-Online-Windows-Reproduction/
 ```
 
 ## 4. 技术方案亮点
-跨平台适配：针对 Windows 11 环境，绕过了原生强依赖 Linux 的 isaacgym 限制，重点聚焦于模型推理链路与源码剖析。
-显存优化：借助 accelerate 的 Offload 机制，有效突破大模型（Fuyu-8B 架构）在消费级显卡（如 RTX 4060）上的显存瓶颈。
+**跨平台适配**：针对 Windows 11 环境，绕过了原生强依赖 Linux 的 isaacgym 限制，重点聚焦于模型推理链路与源码剖析。
+
+**显存优化**：借助 accelerate 的 Offload 机制，有效突破大模型（Fuyu-8B 架构）在消费级显卡（如 RTX 4060）上的显存瓶颈。
