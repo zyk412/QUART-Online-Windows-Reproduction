@@ -1,0 +1,8 @@
+torch>=2.0.0
+torchvision>=0.15.0
+transformers>=4.38.0
+accelerate>=0.25.0
+numpy>=1.22.0
+tqdm>=4.64.0
+safetensors>=0.4.0
+# isaacgym (可选：若在 Linux 仿真环境中部署则需取消注释)
